@@ -9,8 +9,8 @@ import {
   Platform,
 } from 'react-native'
 import PropTypes from 'prop-types'
-import StyleSheetPropType from 'react-native/Libraries/StyleSheet/StyleSheetType'
-import ViewStylePropTypes from 'react-native/Libraries/Components/View/ViewStylePropTypes'
+import StyleSheetPropType from 'react-native/Libraries/DeprecatedPropTypes/DeprecatedStyleSheetPropType'
+import ViewStylePropTypes from 'react-native/Libraries/DeprecatedPropTypes/DeprecatedViewStylePropTypes'
 import TextInputState from 'react-native/Libraries/Components/TextInput/TextInputState'
 
 const FieldStylePropType = {
